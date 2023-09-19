@@ -1,0 +1,29 @@
+<suite name = "gmail test suite ">
+
+     <test name = "send mail test case">
+     
+     <parameter name = "mailid" value = "fbfdhhfhfd@gmail.com"> </parameter>
+     <parameter name = "subject" value = "xchskdhkhkhkfh"> </parameter>
+
+         <classes>
+              <class name = "gmail.sentmailtest"> </class>
+
+         </classes>
+
+
+      </test>
+      
+      
+      
+      
+      <test name = "recieve mail test">
+      <classes>
+      
+      <class name = "gmail.Receivemailtest"> </class>
+      
+      </classes>
+      
+      
+      </test>
+
+</suite>

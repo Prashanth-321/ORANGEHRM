@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T12:48:44 IST" name="orange hrm test suite" finished-at="2023-07-11T12:48:45 IST" duration-ms="447">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T12:48:44 IST" name="admin login test with valid data" finished-at="2023-07-11T12:48:44 IST" duration-ms="66">
+      <class name="orangehrm.testcases.AdminlogintestwithvalidinputsTNG">
+        <test-method signature="checkadminloginTng(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testcases.AdminlogintestwithvalidinputsTNG@1e6454ec]" started-at="2023-07-11T12:48:44 IST" name="checkadminloginTng" finished-at="2023-07-11T12:48:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkadminloginTng -->
+      </class> <!-- orangehrm.testcases.AdminlogintestwithvalidinputsTNG -->
+    </test> <!-- admin login test with valid data -->
+    <test started-at="2023-07-11T12:48:44 IST" name="admin login test with invalid data" finished-at="2023-07-11T12:48:44 IST" duration-ms="11">
+      <class name="orangehrm.testcases.AdminloinwithinvalidinputsTNG">
+        <test-method signature="checkAdminlogin(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testcases.AdminloinwithinvalidinputsTNG@49c7b90e]" started-at="2023-07-11T12:48:44 IST" name="checkAdminlogin" finished-at="2023-07-11T12:48:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oijhhs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ladd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminlogin -->
+      </class> <!-- orangehrm.testcases.AdminloinwithinvalidinputsTNG -->
+    </test> <!-- admin login test with invalid data -->
+    <test started-at="2023-07-11T12:48:44 IST" name="new employee registration test" finished-at="2023-07-11T12:48:44 IST" duration-ms="83">
+      <class name="orangehrm.testcases.EmpregtestTNG">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangehrm.testcases.EmpregtestTNG@32b260fa]" started-at="2023-07-11T12:48:44 IST" name="adminLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689059924854" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkEmpreg(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testcases.EmpregtestTNG@32b260fa]" started-at="2023-07-11T12:48:44 IST" name="checkEmpreg" finished-at="2023-07-11T12:48:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thaun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpreg -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:orangehrm.testcases.EmpregtestTNG@32b260fa]" started-at="2023-07-11T12:48:44 IST" name="adminlogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689059924922" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- orangehrm.testcases.EmpregtestTNG -->
+    </test> <!-- new employee registration test -->
+    <test started-at="2023-07-11T12:48:44 IST" name="user registration test" finished-at="2023-07-11T12:48:44 IST" duration-ms="37">
+      <class name="orangehrm.testcases.UserRegtestTNG">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangehrm.testcases.UserRegtestTNG@fba92d3]" started-at="2023-07-11T12:48:44 IST" name="adminLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689059924950" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkUserreg(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testcases.UserRegtestTNG@fba92d3]" started-at="2023-07-11T12:48:44 IST" name="checkUserreg" finished-at="2023-07-11T12:48:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thaun Gold]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[thaun]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdfg@321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserreg -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:orangehrm.testcases.UserRegtestTNG@fba92d3]" started-at="2023-07-11T12:48:44 IST" name="adminlogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689059924980" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- orangehrm.testcases.UserRegtestTNG -->
+    </test> <!-- user registration test -->
+    <test started-at="2023-07-11T12:48:45 IST" name="employee login test" finished-at="2023-07-11T12:48:45 IST" duration-ms="11">
+      <class name="orangehrm.testcases.EmplogintestTNG">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:orangehrm.testcases.EmplogintestTNG@505fc5a4]" started-at="2023-07-11T12:48:44 IST" name="launchApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689059924494" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeSuite annotated launchApp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeSuite annotated launchApp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkemplogin(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testcases.EmplogintestTNG@505fc5a4]" started-at="2023-07-11T12:48:45 IST" name="checkemplogin" finished-at="2023-07-11T12:48:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdfg@321]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeSuite annotated launchApp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeSuite annotated launchApp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkemplogin -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:orangehrm.testcases.EmplogintestTNG@505fc5a4]" started-at="2023-07-11T12:48:45 IST" name="closeapp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689059925036" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- orangehrm.testcases.EmplogintestTNG -->
+    </test> <!-- employee login test -->
+  </suite> <!-- orange hrm test suite -->
+</testng-results>

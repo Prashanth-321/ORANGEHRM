@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "orange hrm test suite">
+   <test name = "admin login test with valid data">
+
+   <parameter name = "adminuid" value = "Admin"> </parameter>
+   <parameter name = "adminpwd" value= "Qedge123!@#" > </parameter>
+   
+	<classes>
+		<class name =  "orangehrm.testcases.AdminlogintestwithvalidinputsTNG">  </class>
+
+	</classes>
+
+   	</test>
+   	
+   	<test name = "admin login test with invalid data"> 
+   	<parameter name = "uid" value = "oijhhs"> </parameter>
+   <parameter name = "pwd" value= "ladd" > </parameter>
+   
+   	<classes>
+   	
+   	<class name = "orangehrm.testcases.AdminloinwithinvalidinputsTNG"> </class>
+   	
+   	</classes>
+   	
+   </test> 
+   
+   <test name = "new employee registration test"> 
+   <parameter name="fname" value="thaun">  </parameter>
+   <parameter name="lname" value="Gold">   </parameter>
+   
+   <classes>
+   <class name="orangehrm.testcases.EmpregtestTNG"> </class>
+   
+   
+   </classes>
+   
+   
+   </test>
+   
+   <test name="user registration test"> 
+   
+   <parameter name="role" value="ESS"></parameter>
+   <parameter name="empname" value="thaun Gold"></parameter>
+   <parameter name="uname" value="thaun"></parameter>
+   <parameter name="pword" value="asdfg@321"></parameter>
+   <classes>
+   
+   <class name="orangehrm.testcases.UserRegtestTNG"></class>
+   </classes>
+   
+   </test> 
+   
+   <test name="employee login test">
+   <parameter name="empuid" value="Suraj"></parameter>
+   <parameter name="emppwd" value="asdfg@321"></parameter>
+   
+   <classes>
+   <class name="orangehrm.testcases.EmplogintestTNG"></class>
+   
+   </classes>
+   
+   
+   </test>
+   	
+</suite>

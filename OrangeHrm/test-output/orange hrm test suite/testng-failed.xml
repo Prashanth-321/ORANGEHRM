@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orange hrm test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="admin login test with valid data(failed)">
+    <parameter name="adminpwd" value="Qedge123!@#"/>
+    <parameter name="adminuid" value="Admin"/>
+    <classes>
+      <class name="orangehrm.testcases.AdminlogintestwithvalidinputsTNG">
+        <methods>
+          <include name="closeapp"/>
+          <include name="checkadminloginTng"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.AdminlogintestwithvalidinputsTNG -->
+    </classes>
+  </test> <!-- admin login test with valid data(failed) -->
+  <test thread-count="5" name="admin login test with invalid data(failed)">
+    <parameter name="uid" value="oijhhs"/>
+    <parameter name="pwd" value="ladd"/>
+    <classes>
+      <class name="orangehrm.testcases.AdminloinwithinvalidinputsTNG">
+        <methods>
+          <include name="closeapp"/>
+          <include name="checkAdminlogin"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.AdminloinwithinvalidinputsTNG -->
+    </classes>
+  </test> <!-- admin login test with invalid data(failed) -->
+  <test thread-count="5" name="new employee registration test(failed)">
+    <parameter name="fname" value="thaun"/>
+    <parameter name="lname" value="Gold"/>
+    <classes>
+      <class name="orangehrm.testcases.EmpregtestTNG">
+        <methods>
+          <include name="closeapp"/>
+          <include name="checkEmpreg"/>
+          <include name="launchApp"/>
+          <include name="adminlogout"/>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.EmpregtestTNG -->
+    </classes>
+  </test> <!-- new employee registration test(failed) -->
+  <test thread-count="5" name="user registration test(failed)">
+    <parameter name="empname" value="thaun Gold"/>
+    <parameter name="role" value="ESS"/>
+    <parameter name="uname" value="thaun"/>
+    <parameter name="pword" value="asdfg@321"/>
+    <classes>
+      <class name="orangehrm.testcases.UserRegtestTNG">
+        <methods>
+          <include name="closeapp"/>
+          <include name="checkUserreg"/>
+          <include name="launchApp"/>
+          <include name="adminlogout"/>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.UserRegtestTNG -->
+    </classes>
+  </test> <!-- user registration test(failed) -->
+  <test thread-count="5" name="employee login test(failed)">
+    <parameter name="empuid" value="Suraj"/>
+    <parameter name="emppwd" value="asdfg@321"/>
+    <classes>
+      <class name="orangehrm.testcases.EmplogintestTNG">
+        <methods>
+          <include name="closeapp"/>
+          <include name="checkemplogin"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.EmplogintestTNG -->
+    </classes>
+  </test> <!-- employee login test(failed) -->
+</suite> <!-- Failed suite [orange hrm test suite] -->
